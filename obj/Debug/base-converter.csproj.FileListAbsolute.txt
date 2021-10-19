@@ -1,0 +1,7 @@
+C:\Users\David\source\repos\FP2021\base-converter\bin\Debug\base-converter.exe.config
+C:\Users\David\source\repos\FP2021\base-converter\bin\Debug\base-converter.exe
+C:\Users\David\source\repos\FP2021\base-converter\bin\Debug\base-converter.pdb
+C:\Users\David\source\repos\FP2021\base-converter\obj\Debug\base-converter.csproj.AssemblyReference.cache
+C:\Users\David\source\repos\FP2021\base-converter\obj\Debug\base-converter.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\FP2021\base-converter\obj\Debug\base-converter.exe
+C:\Users\David\source\repos\FP2021\base-converter\obj\Debug\base-converter.pdb
