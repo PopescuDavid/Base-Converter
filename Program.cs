@@ -62,7 +62,10 @@ namespace base_converter
             {
                 if (baza >= 2 && baza <= 16)
                 {
-                    Console.WriteLine($"Numarul introdus, modificat cu caracatere ASCII (A-F) inainte de convertirea sa este: {verificareNumar}");
+                    if (baza == 16)
+                    {
+                        Console.WriteLine($"Numarul introdus, modificat cu caracatere ASCII (A-F) inainte de convertirea sa este: {verificareNumar}");
+                    }
                     //ConvertFromBase10ToAnyBase(numar, baza);  //1023 este valoarea maxima care poate fi reprezentata in baza 2.
                     ConvertFromAnyBaseToBase10(numar, baza);
                 }
@@ -139,10 +142,8 @@ namespace base_converter
                     }
                 }
             }
-            if (ok == true) 
+            if (ok == true && baza==16) 
                 Console.WriteLine($"Noul numar convertit cu caracatere ASCII (A-F) este: {verificareNumar}");
-            else
-                Console.WriteLine($"Numarul {noulNumar.ToString()} nu se poate reprezenta cu ajutorul caracterelor cuprinse intre A-F");  // de ex 123 din baza 10 in baza 4
         }
 
         private static void ConvertFromAnyBaseToBase10(int numar, int baza)
@@ -208,10 +209,8 @@ namespace base_converter
                     }
                 }
             }
-            if (ok == true)
+            if (ok == true && baza==16)
                 Console.WriteLine($"Noul numar convertit cu caracatere ASCII (A-F) este: {verificareNumar}");
-            else
-                Console.WriteLine($"Numarul {suma.ToString()} nu se poate reprezenta cu ajutorul caracterelor cuprinse intre A-F");  // de ex 1378 din baza 9 in baza 10
         }
     }
 }
