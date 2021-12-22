@@ -8,9 +8,13 @@ namespace base_converter
 {
     class Program
     {
+        /// <summary>
+        /// dasdsadsadsasdsadsdasdsadsadas
+        /// </summary>
+        /// <param name="args"></param>
         private static void Main(string[] args)
         {
-            int numar, baza;
+            int numar, baza,numar2222;
             bool ok=false;
             string verificareNumar;
             numar = int.Parse(Console.ReadLine());
